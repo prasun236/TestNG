@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37947" started-at="2017-10-28T19:01:30Z" finished-at="2017-10-28T19:02:08Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="20789" started-at="2017-10-28T19:01:30Z" finished-at="2017-10-28T19:01:51Z">
+      <class name="SeleniumTests.ValidateHomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SeleniumTests.ValidateHomePage@769f71a9]" name="initialize" is-config="true" duration-ms="11" started-at="2017-10-28T15:01:30Z" finished-at="2017-10-28T15:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:SeleniumTests.ValidateHomePage@769f71a9]" name="basePageNavigation" duration-ms="12624" started-at="2017-10-28T15:01:30Z" data-provider="getData" finished-at="2017-10-28T15:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstuser@123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdsad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:SeleniumTests.ValidateHomePage@769f71a9]" name="basePageNavigation" duration-ms="8141" started-at="2017-10-28T15:01:43Z" data-provider="getData" finished-at="2017-10-28T15:01:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seconduser@123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTests.ValidateHomePage@769f71a9]" name="teardown" is-config="true" duration-ms="0" started-at="2017-10-28T15:01:51Z" finished-at="2017-10-28T15:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumTests.ValidateHomePage -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="10324" started-at="2017-10-28T19:01:51Z" finished-at="2017-10-28T19:02:01Z">
+      <class name="SeleniumTests.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SeleniumTests.ValidateTitle@64cd705f]" name="initialize" is-config="true" duration-ms="5782" started-at="2017-10-28T15:01:51Z" finished-at="2017-10-28T15:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SeleniumTests.ValidateTitle@64cd705f]" name="basePageNavigation" duration-ms="4419" started-at="2017-10-28T15:01:57Z" finished-at="2017-10-28T15:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTests.ValidateTitle@64cd705f]" name="teardown" is-config="true" duration-ms="123" started-at="2017-10-28T15:02:01Z" finished-at="2017-10-28T15:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumTests.ValidateTitle -->
+    </test> <!-- Test 2 -->
+    <test name="Test 3" duration-ms="6753" started-at="2017-10-28T19:02:01Z" finished-at="2017-10-28T19:02:08Z">
+      <class name="SeleniumTests.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SeleniumTests.ValidateNavigationBar@9353778]" name="initialize" is-config="true" duration-ms="4231" started-at="2017-10-28T15:02:01Z" finished-at="2017-10-28T15:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SeleniumTests.ValidateNavigationBar@9353778]" name="basePageNavigation" duration-ms="184" started-at="2017-10-28T15:02:06Z" finished-at="2017-10-28T15:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTests.ValidateNavigationBar@9353778]" name="teardown" is-config="true" duration-ms="2338" started-at="2017-10-28T15:02:06Z" finished-at="2017-10-28T15:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumTests.ValidateNavigationBar -->
+    </test> <!-- Test 3 -->
+  </suite> <!-- Suite -->
+</testng-results>

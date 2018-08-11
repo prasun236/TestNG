@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="SeleniumTests.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test 2(failed)" parallel="none">
+    <classes>
+      <class name="SeleniumTests.ValidateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- SeleniumTests.ValidateTitle -->
+      <class name="SeleniumTests.ValidateHomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- SeleniumTests.ValidateHomePage -->
+      <class name="SeleniumTests.ValidateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SeleniumTests.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

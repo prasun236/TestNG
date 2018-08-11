@@ -1,0 +1,3 @@
+SeleniumTests\ValidateHomePage.class
+SeleniumTests\ValidateNavigationBar.class
+SeleniumTests\ValidateTitle.class
